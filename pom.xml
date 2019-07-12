@@ -24,6 +24,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 指定启动类 -->
+                    <mainClass>com.huawei.it.App</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
