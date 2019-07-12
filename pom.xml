@@ -27,7 +27,7 @@
                 <version>0.4.13</version>
                 <configuration>
 <!--                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName> 这里取得是项目名字，我的项目名字是SpringBoot2，导致失败-->
-                    <imageName>mytest/springboot</imageName>
+                    <imageName>test/springboot:latest</imageName>
 <!--                     <dockerDirectory>src/main/docker</dockerDirectory> -->
                     <dockerDirectory>./</dockerDirectory>
                     <resources>
